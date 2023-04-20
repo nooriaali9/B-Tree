@@ -1,2 +1,3 @@
 # B-Tree
-This project involves implementing a dynamic index structure, specifically the B+Tree, to enable fast data retrieval without exhaustive database table searches.
+This project involves implementing a dynamic index structure, specifically the B+Tree, to enable fast data retrieval without exhaustive database table searches. The B+Tree is a balanced tree structure, with internal nodes directing searches and leaf nodes containing pointers to data entries. The implementation requires handling split and merge logic for dynamic growth and shrinking of the tree.
+The provided BPlusTree classes contain the required API, with the option to add helper functions and member variables to realize the functionality. The assumption is that unique integers serve as keys, with simulated disk pages using two node types and the MAX_FANOUT parameter. 
